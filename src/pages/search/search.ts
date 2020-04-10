@@ -54,5 +54,8 @@ export class SearchPage {
 
     });
   }
+  openProductPage(product){
+    this.navCtrl.push(ProductDetails,{ "product":product} );
+  }
 
 }
